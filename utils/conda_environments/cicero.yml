@@ -1,0 +1,19 @@
+name: cicero_new
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - python=3.9
+  - r-base
+  - jupyter
+  - r-cairo
+  - r-rgdal
+  - r-terra
+  - cmake
+  - r-ggrastr
+  - r-devtools
+  - r-spdep
+  - r-speedglm
+  - r-irkernel
+  - jupyterlab
+prefix: /opt/modules/i12g/anaconda/envs/cicero_new

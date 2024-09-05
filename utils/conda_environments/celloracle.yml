@@ -1,0 +1,14 @@
+name: celloracle
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - python==3.8.16
+  - cython
+  - gcc
+  - pybigwig
+  - perl
+  - pybedtools
+  - gcc_linux-64
+  - pip
+prefix: /opt/modules/i12g/anaconda/envs/celloracle
