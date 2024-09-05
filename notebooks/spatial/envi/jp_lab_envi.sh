@@ -19,10 +19,6 @@ source $HOME/.bash_profile
 conda deactivate
 
 conda activate envi
-#pip install jupyterlab
-#pip install -U "jax[cuda12_pip]" -f https://storage.googleapis.com/jax-releases/jax_cuda_releases.html
-#pip install git+https://github.com/theislab/moscot.git@main
-#pip install git+https://github.com/scverse/squidpy@main
 
 echo "Starting jupyter..."
 
