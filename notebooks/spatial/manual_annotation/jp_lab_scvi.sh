@@ -2,7 +2,7 @@
  
 #SBATCH -o slurm_jupyter_%j.txt
 #SBATCH -e slurm_error_%j.txt
-#SBATCH --job-name=jp_lab_envi
+#SBATCH --job-name=jp_lab_scvi
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=4
 #SBATCH --mail-type=ALL

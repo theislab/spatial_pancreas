@@ -2,7 +2,7 @@
  
 #SBATCH -o slurm_jupyter_%j.txt
 #SBATCH -e slurm_error_%j.txt
-#SBATCH --job-name=jp_lab_envi
+#SBATCH --job-name=jp_lab_liana
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=4
 #SBATCH --mail-type=ALL
@@ -17,10 +17,6 @@ source $HOME/.bash_profile
 conda deactivate
 
 conda activate liana
-#pip install jupyterlab
-#pip install -U "jax[cuda12_pip]" -f https://storage.googleapis.com/jax-releases/jax_cuda_releases.html
-#pip install git+https://github.com/theislab/moscot.git@main
-#pip install git+https://github.com/scverse/squidpy@main
 
 echo "Starting jupyter..."
 
