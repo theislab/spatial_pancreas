@@ -8,8 +8,9 @@
 #SBATCH --mail-type=ALL
 #SBATCH --mail-user=sara.jimenez@helmholtz-munich.de
 #SBATCH --mem-per-cpu=20G
-#SBATCH --partition=cpu_p    
-#SBATCH --qos=cpu_long
+#SBATCH --gres=gpu:1
+#SBATCH --partition=gpu_p    
+#SBATCH --qos=gpu_normal
 #SBATCH --time=48:00:00
 
 source $HOME/.bash_profile
