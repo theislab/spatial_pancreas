@@ -11,7 +11,7 @@
 #SBATCH --gres=gpu:1
 #SBATCH --partition=gpu_p    
 #SBATCH --qos=gpu_normal
-#SBATCH --time=48:00:00
+#SBATCH --time=24:00:00
 
 source $HOME/.bash_profile
  

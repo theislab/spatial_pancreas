@@ -10,7 +10,7 @@
 #SBATCH --mem-per-cpu=20G
 #SBATCH --partition=cpu_p    
 #SBATCH --qos=cpu_normal
-#SBATCH --time=48:00:00
+#SBATCH --time=24:00:00
 
 source $HOME/.bash_profile
  

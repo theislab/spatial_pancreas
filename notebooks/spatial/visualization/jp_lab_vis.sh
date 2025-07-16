@@ -21,4 +21,4 @@ conda activate spatial
 
 echo "Starting jupyter..."
 
-jupyter-lab --port 8893 --no-browser --ip=0.0.0.0 --notebook-dir=/lustre/groups/ml01/workspace/sara.jimenez/spatial_pancreas/notebooks/spatial/visualization/
+jupyter-lab --port 8893 --no-browser --ip=0.0.0.0 --notebook-dir=/lustre/groups/ml01/workspace/sara.jimenez/spatial_pancreas/notebooks/spatial/
